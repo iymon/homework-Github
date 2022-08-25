@@ -1,0 +1,1248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+
+/* header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #1a1a1a;
+}
+
+.header__container {
+    width: 1440px;
+    margin: 0 auto;
+    background: #1a1a1a;
+}
+
+.header__content {
+    width: 1200px;
+    height: 30px;
+    padding-top: 35px;
+    padding-bottom: 38px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    display: none;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-link {
+    list-style-type: none;
+    margin-right: 34px;
+}
+
+.header__nav-link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__nav-link a:hover {
+    color: #D87D4A;
+    transition: 0.3s
+}
+
+.hr {
+    max-width: 1200px;
+    height: 1px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+
+
+/* checked */
+.menu {
+    text-align: center;
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label {
+    color: #fafafb;
+    font-size: 35px;
+    line-height: 72px;
+    display: none;
+    margin-bottom: 2px;
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+
+/* main */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* section 1 */
+
+
+.section__bg {
+    background: #1a1a1a;
+}
+
+.main-bg {
+    width: 1440px;
+    margin: 0 auto;
+    background: #1a1a1a;
+    background-image: url(../imgs/Bitmap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__content {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__text-one {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 24px;
+}
+
+.main__paragraph {
+    width: 500px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.main__text-second {
+    width: 400px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 40px;
+}
+
+.main__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #D87D4A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main__buttom:hover {
+    background: #FBAF85;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+/* section 2 */
+
+.content-one {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 168px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between
+}
+
+.list-one__img {
+    position: relative;
+    left: 110px;
+    top: 85px;
+    /* box-shadow : 0 140px 50px -20px rgba(0,0,0,0.20); */
+}
+
+.img-shadow {
+    position: relative;
+    right: 62px;
+    top: 137px;
+}
+
+.list-one__box {
+    width: 350px;
+    height: 204px;
+    background: #F1F1F1;
+    border-radius: 8px;
+}
+
+.list-one__paragraph {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    padding-top: 116px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.content-one__buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-one__btn {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-right: 13px;
+}
+
+.list-one__btn:hover {
+    color: #f77a32;
+    transition: 0.3s;
+    opacity: 80;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section 3 */
+
+
+.content-second {
+    position: relative;
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+    background: #D87D4A;
+    border-radius: 8px;
+}
+
+.content-second__img-bg {
+    position: absolute;
+    left: 105px;
+    top: 95px;
+}
+
+.content-second__list {
+    position: absolute;
+    width: 360px;
+    right: 167px;
+    top: 135px;
+}
+
+.content-second__paragraph {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.content-second__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 40px;
+}
+
+.content-second__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.content-second__buttom:hover {
+    background: #4C4C4C;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 4 */
+
+.content-third {
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    background-image: url(../imgs/Bitmap\(1\).png);
+    margin-top: 48px;
+    background-repeat: round;
+}
+
+.content-third__list {
+    padding: 100px 95px;
+}
+
+.content-third__paragraph {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.content-third__buttom {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.content-third__buttom:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 5 */
+
+.content-fourth {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 168px;
+}
+
+.content-fourth__list-box-one {
+    width: 540px;
+    height: 320px;
+    background-image: url(../imgs/Bitmap\(2\).png);
+    background-repeat: no-repeat;
+    background-repeat: round;
+    border-radius: 8px;
+}
+
+.content-fourth__list-box-second {
+    width: 540px;
+    height: 320px;
+    padding: 100px 95px;
+    background: #F1F1F1;
+    border-radius: 8px;
+}
+
+.content-fourth__paragraph {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.content-fourth__buttom {
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.content-fourth__buttom:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+/* section 6 */
+
+
+.content-fifth {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.content-fifth__list-third {
+    width: 500px;
+}
+
+.content-fifth__img {
+    width: 540px;
+    height: 588px;
+    background-image: url(../imgs/Bitmap\(3\).png);
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+
+}
+
+.list-third__paragraph {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.list-third__paragraph span {
+    color: #D87D4A;
+}
+
+.list-third__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+/* HEADPHONES */
+
+.container__menu {
+    width: 1440px;
+    margin: 0 auto;
+
+    background: #1a1a1a;
+
+}
+
+.menu__paragraph {
+    padding: 98px 579px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+
+
+}
+
+.menu__paragraph a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.Headphones__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.Headphones__content-one {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.Headphones__content-img {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3.png);
+}
+
+.Headphones__content-img1 {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3\(1\).png);
+}
+
+.Headphones__content-img2 {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3\(2\).png);
+}
+
+.Headphones__list {
+    width: 445px;
+}
+
+
+
+.Headphones__text-one {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    margin-bottom: 16px;
+}
+
+.Headphones__paragraph {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+
+
+.Headphones__text-second {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+
+.Headphones__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #D87D4A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Headphones__buttom:hover {
+    background: #FBAF85;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+/* Speakers */
+
+.Speakers__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Speakers__content-one {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.Speakers__list {
+    width: 445px;
+}
+
+
+
+
+.Speakers__content-img {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3\(3\).png);
+}
+
+.Speakers__content-img-one {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3\(4\).png);
+}
+
+
+.Speakers__text-one {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    margin-bottom: 16px;
+}
+
+
+.Speakers__paragraph {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.Speakers__text-second {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+
+.Speakers__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #D87D4A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Speakers__buttom:hover {
+    background: #FBAF85;
+    transition: 0.3s;
+}
+
+
+
+
+/* Earphones */
+
+.Earphones__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Earphones__list {
+    width: 445px;
+}
+
+
+.Earphones__content-img {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3\(5\).png);
+}
+
+.Earphones__text-one {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    margin-bottom: 16px;
+}
+
+.Earphones__paragraph {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.Earphones__text-second {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+
+.Earphones__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #D87D4A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Earphones__buttom:hover {
+    background: #FBAF85;
+    transition: 0.3s;
+}
+
+
+
+
+/* Headphones 1== section 1*/
+
+.container__go-back {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 79px;
+
+}
+
+.go-back {
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.go-back:hover {
+    opacity: 50;
+}
+
+.Headphones-one__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Headphones-one__list {
+    width: 445px;
+}
+
+
+.Headphones-one__content-img {
+    width: 540px;
+    height: 560px;
+    background-image: url(../imgs/Group\ 3.png);
+}
+
+.Headphones-one__text-one {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #D87D4A;
+    margin-bottom: 16px;
+}
+
+.Headphones-one__paragraph {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.Headphones-one__text-second {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+
+.Headphones-one__number {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 40px;
+
+
+}
+
+.Headphones-one__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #D87D4A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Headphones-one__buttom:hover {
+    background: #FBAF85;
+    transition: 0.3s;
+}
+
+
+.Headphones-one__btn {
+    align-items: center;
+    display: flex;
+
+}
+
+input {
+    margin-right: 20px;
+    width: 120px;
+    padding: 11px 30px;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.9;
+    background: #F1F1F1;
+}
+
+
+
+
+
+
+
+
+
+/* Headphones 1== section 2*/
+
+
+.Headphones-one-second__content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Headphones-one-second__paragraph {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.Headphones-one-second__text {
+    width: 695px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.Headphones-one-second__paragraph-second {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.Headphones-one-second__box {
+    display: flex;
+    align-items: center;
+}
+
+.Headphones-one-second__box span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 33px;
+    color: #D87D4A;
+    margin-right: 24px;
+}
+
+.Headphones-one-second__text-second {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+/* Headphones 1== section 3*/
+
+
+.Headphones-one-third__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+}
+
+.Headphones-one-third__img1 {
+    width: 445px;
+    height: 280px;
+    background-image: url(../imgs/boy.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.Headphones-one-third__img2 {
+    width: 445px;
+    height: 280px;
+    background-image: url(../imgs/Bitmap\(4\).png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.Headphones-one-third__img3 {
+    width: 635px;
+
+    height: 592px;
+    background-image: url(../imgs/Bitmap\(5\).png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* Headphones 1== section 4*/
+
+
+
+.Headphones-one-fourth__content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.Headphones-one-fourth__paragraph-one {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+.Headphones-one-fourth__list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Headphones-one-fourth__content-img1 {
+    width: 350px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/Group\ 12.png);
+}
+
+.Headphones-one-fourth__content-img2 {
+    width: 350px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/Group\ 12\(1\).png);
+}
+
+.Headphones-one-fourth__content-img3 {
+    width: 350px;
+    height: 318px;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/Group\ 12\(2\).png);
+}
+
+
+.Headphones-one-fourth_paragraph {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    text-align: center;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.Headphones-one-fourth__buttom {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 30px;
+    background: #D87D4A;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.Headphones-one-fourth__buttom:hover {
+    background: #FBAF85;
+    transition: 0.3s;
+}
+
+
+
+/* footer */
+
+footer {
+    background: #101010;
+}
+
+.footer__container {
+    width: 1440px;
+    height: 380px;
+    margin: 0 auto;
+    background: #101010;
+
+}
+
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__hr {
+    width: 101px;
+    height: 4px;
+    margin-bottom: 72px;
+    background: #e2793c;
+}
+
+.footer-content__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.footer__nav-list {
+    display: flex;
+}
+
+.footer__nav-link {
+    list-style-type: none;
+    margin-left: 34px;
+}
+
+.footer__nav-link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__nav-link a:hover {
+    color: #D87D4A;
+    transition: 0.3s
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.footer__content-links {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-list__text {
+    width: 560px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+        
+}
+
+.footer__link {
+    margin-left: 20px;
+    
+}
+
+.footer__link:hover {
+ transition: 0.1s;
+transform: scale(1.3);
+}
+.footer__text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-top: 56px;
+}
